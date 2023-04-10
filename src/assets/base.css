@@ -1,0 +1,28 @@
+/* color palette from <https://github.com/vuejs/theme> */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+html {
+  /* font-size: 62.5%; */
+  font-size: 100%;
+}
+
+body {
+  min-height: 100vh;
+  color: #111;
+  background: #fff;
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: "Ubuntu", "Roboto", sans-serif;
+  font-size: 1rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
