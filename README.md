@@ -75,6 +75,7 @@ Here is how I solved the issue :
 
 ### Useful resources
 
+- [Deploy a vite app to Github Pages](https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane) - 🥳 I actually found my solution in the top comment. I was following the article's steps but it wasn't working.
 - [CSS will-change](https://developer.mozilla.org/en-US/docs/Web/CSS/will-change) - This helped me to fix a performance issue I had in the browser because of the use of CSS "position: fixed;".
 - [Vue.js Reactive](https://vuejs.org/api/reactivity-core.html#reactive) - I had some issues with the second step related to the radio inputs because I was using computed properties : when I checked them, the style for the checked state was no longer applying. So I made the variable a reactive one and used shallowRef on the icons and the issues were fixed.
 
