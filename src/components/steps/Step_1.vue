@@ -4,7 +4,7 @@
     <template #description
       >Please provide your name, email address, and phone number.</template
     >
-    <div action="">
+    <div>
       <div class="flex flex-col gap-2 mb-[24px]">
         <div class="flex justify-between">
           <label for="name" class="font-normal text-marineBlue">Name</label>
