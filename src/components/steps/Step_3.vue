@@ -5,7 +5,7 @@
       >Add-ons help enhance your gaming experience.</template
     >
     <div>
-      <ul class="flex flex-col gap-6">
+      <ul class="flex flex-col gap-4">
         <li v-for="addon in addons" :key="addon.name">
           <input
             type="checkbox"

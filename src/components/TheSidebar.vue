@@ -52,7 +52,7 @@ const navItems = [
   /* 768px */
   ul {
     flex-direction: column;
-    gap: 25px;
+    gap: 21px;
   }
 }
 </style>

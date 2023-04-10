@@ -1,6 +1,6 @@
 <template>
   <span
-    class="active-item-number text-magnolia ring-1 ring-lightBlue font-bold p-2 rounded-full w-[40px] h-[40px] flex items-center justify-center"
+    class="active-item-number text-magnolia ring-1 ring-lightBlue font-bold p-2 rounded-full w-[30px] h-[30px] flex items-center justify-center"
   >
     <slot name="number"></slot>
   </span>

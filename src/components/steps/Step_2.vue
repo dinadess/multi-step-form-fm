@@ -37,7 +37,6 @@
         <label
           for="isYearly"
           class="cursor-pointer flex items-center gap-6 justify-center text-marineBlue"
-          @click="stepStore.toggleYearly"
         >
           <span
             :aria-current="!stepStore.isYearly ? true : false"
@@ -52,6 +51,7 @@
             id="isYearly"
             class="isYearlyInput cursor-pointer"
             :checked="stepStore.isYearly"
+            @click="stepStore.toggleYearly"
           />
           <span
             class="font-bold text-coolGray"
@@ -177,10 +177,10 @@ input:checked + label {
 /* Monthly or Yearly Toggle */
 .isYearlyInput {
   appearance: none;
-  width: 60px;
-  height: 28px;
+  width: 40px;
+  height: 22px;
   border-radius: 50px;
-  padding: 8px;
+  padding: 6px;
   background-color: var(--marine-blue);
   position: relative;
 
@@ -194,8 +194,8 @@ input:checked + label {
 .isYearlyInput::after {
   content: "";
   position: absolute;
-  width: 18px;
-  height: 18px;
+  width: 14px;
+  height: 14px;
   display: inline-block;
   background-color: var(--alabaster);
   border-radius: 100%;
@@ -205,6 +205,6 @@ input:checked + label {
 }
 
 .isYearlyInput:checked::after {
-  transform: translateY(-50%) translateX(150%);
+  transform: translateY(-50%) translateX(110%);
 }
 </style>

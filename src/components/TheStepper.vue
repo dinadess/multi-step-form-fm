@@ -37,7 +37,7 @@ const stepStore = useStepStore();
 @media screen and (min-width: 48rem) {
   /** 768px */
   .stepper {
-    margin-top: 25px;
+    margin-top: 35px;
     padding: 0 15px;
     max-width: 100%;
 

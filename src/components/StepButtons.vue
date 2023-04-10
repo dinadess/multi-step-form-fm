@@ -1,7 +1,7 @@
 <template>
   <div
     v-if="stepStore.currentStepNumber !== 5"
-    class="stepButtons mt-auto mb-6 flex justify-between"
+    class="stepButtons mt-auto flex justify-between"
   >
     <button
       v-if="stepStore.currentStepNumber !== 1"
@@ -64,6 +64,7 @@ const stepStore = useStepStore();
   .stepButtons {
     position: initial;
     padding: 0;
+    margin-bottom: 18px;
   }
 }
 </style>
