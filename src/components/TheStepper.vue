@@ -41,7 +41,8 @@ const stepStore = useStepStore();
     padding: 0 15px;
     max-width: 100%;
 
-    width: 30rem; /** 480px */
+    width: 100%;
+    /** width: 30rem;  480px */
   }
 }
 </style>
