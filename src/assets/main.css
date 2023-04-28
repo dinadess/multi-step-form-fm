@@ -76,6 +76,7 @@ h3 {
 @media screen and (min-width: 48rem) {
   #app {
     padding: 40px;
+    max-width: 100%;
   }
 
   .main-container {
